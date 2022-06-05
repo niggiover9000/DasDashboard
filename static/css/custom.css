@@ -7,6 +7,12 @@
   text-align: initial; /* restore text-align to default */
 }
 
+.clickable {
+  cursor: pointer !important;
+  pointer-events: all !important;
+}
+
+
 .move-right-20 {
   margin-left: 20px;
 }
