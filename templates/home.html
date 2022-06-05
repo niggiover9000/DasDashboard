@@ -3,41 +3,12 @@
     {%include "elements/topnav.html"%}
     {%include "elements/sidenav.html"%}
     <div class="row">
-      <div class="col s12 m6 l4 xl3">
-      <div class="card">
-        <div class="card-content">
-          <span class="card-title">Aktuelle Informationen</span>
-          Hier stehen wichtige Infos!
-        </div>
-      </div>
-        </div>
-    <div class="col s12 m6 l4 xl3">
-      <div class="card">
-        <div class="card-content">
-          {%include "elements/calendar.html"%}
-          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
-        </div>
-      </div>
-        </div>
-        <div class="col s12 m6 l4 xl3">
-        <div class="card">
-          <div class="card-content">
-          {%include "elements/tasks.html"%}
-          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
-          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-        </div>
-        </div>
-      </div>
-      <div class="col s12 m6 l4 xl3">
-      <div class="card">
-        <div class="card-content">
-          <span class="card-title">Witz des Tages 😂😂😂</span>
-          #Todo
-        </div>
-      </div>
-        </div>
+      {%include "elements/infos.html"%}
+      {%include "elements/calendar.html"%}
+      {%include "elements/tasks.html"%}
+      {%include "elements/finances.html"%}
+      {%include "elements/joke.html"%}
     </div>
-  </div>
 </body>
 {%include "elements/footer.html"%}
 </html>
