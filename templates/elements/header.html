@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{%if title%}
+        Das Dashboard - {{title}}
+        {%else%}
+        Das Dashboard
+        {%endif%}
+        </title>
+    <link href="{{url_for('static', filename='css/custom.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{url_for('static', filename='css/custom.scss')}}" rel="stylesheet" type="text/css">
+    <link href="{{url_for('static', filename='css/materialize.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{url_for('static', filename='css/icon.css')}}" rel="stylesheet" type="text/css">
+</head>
